@@ -1,0 +1,42 @@
+//Luis Ignacio Acosta Zamora A01411895
+// This program will add, subtract, divide or multiply with 2 numbers given by the user.
+
+// printf("Text"), scanf("%lf", &double)
+
+#include <stdio.h>
+
+int main(void) {
+
+    // establish all doubles that will be use
+    double num1;
+    double num2;
+    double add;
+    double subtract;
+    double multiply;
+    double divide;
+
+// start code
+    printf("This code will help you add, subtract, multiply or subtract. \n");
+
+    printf("Please wright the first number: ");
+    scanf("%lf", &num1);
+
+    printf("Please wright the second number: ");
+    scanf("%lf", &num2);
+
+// establish all the doubles and their functions
+    add = num1 + num2;
+    subtract = num1 - num2;
+    multiply = num1 * num2;
+    divide= num1 / num2;
+
+// give the results to the user
+    printf("The addition of the two numbers is: %lf \n", add);
+    printf("The subtration of the two numbers is: %lf \n", subtract);
+    printf("The multiplication of the two numbers is: %lf \n", multiply) ;
+    printf("The division of the two numbers is: %lf \n", divide);
+
+    printf("Thanks for using this service!\n");
+
+    return 0;
+}
